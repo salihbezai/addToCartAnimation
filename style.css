@@ -1,0 +1,33 @@
+html,body{
+    margin:0;
+    padding: 0;
+}
+.glyphicon-shopping-cart{
+    font-size: 20px;
+    color: orange;
+}
+#bs-example-navbar-collapse-1{
+    display: flex !important;
+    align-items: center;
+}
+.navbar-right{
+    margin-left: auto !important;
+}
+.navbarcustom{
+    background-color: black;
+}
+.navbarcustom a {
+    color: white;
+}
+
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+#product-image{
+    width: 400px;
+    height: 400px;
+}
+
